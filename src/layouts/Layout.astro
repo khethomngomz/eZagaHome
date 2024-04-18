@@ -1,0 +1,46 @@
+---
+
+import AppFooter from "../components/AppFooter.astro";
+import AppHeader from "../components/AppHeader.astro";
+---
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="generator" content={Astro.generator} />
+        <meta name="description" content="Template built with tailwindcss using Tailus blocks v2" />
+        <title>Ezaga Homepage</title>
+      
+    </head>
+    <body class="bg-white dark:bg-gray-900">
+        <AppHeader />
+        <slot />
+        <AppFooter />
+       
+                
+            </a>
+        </div>
+    </body>
+</html>
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        margin: 0;
+    }
+	
+@font-face {
+  font-family: 'DistantGalaxy';
+  src: url('/fonts/DistantGalaxy.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; 
+}
+
+</style>

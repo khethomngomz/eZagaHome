@@ -1,0 +1,68 @@
+---
+import Container from "./Container.astro"
+
+---
+
+<div class="relative" id="home">
+    <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20">
+        <div class="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"></div>
+        <div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
+    </div>
+    <Container>
+        <div class="relative ml-auto pt-36">
+            <div class="mx-auto text-center lg:w-2/3">
+                <h1 class="text-5xl font-bold text-gray-900 dark:text-white md:text-6xl xl:text-7xl">Digital Banking Made <span class="text-primary dark:text-white">Easier.</span></h1>
+                <p class="mt-8 text-gray-700 dark:text-gray-300">For traditional banks, digital banks and high-performing fintechs</p>
+                <div class="flex flex-wrap justify-center mt-16 gap-y-4 gap-x-6">
+                    <a
+                      href="https://.ezaga.co.za/contact-us/"
+                      class="relative flex items-center justify-center w-full px-6 h-11 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
+                    >
+                      <span class="relative text-base font-semibold text-white"
+                        >Talk To An Expert</span
+                      >
+                      
+
+                    </a>
+                    
+                   
+                    </a>
+                </div>
+                <div class="justify-between hidden py-8 mt-16 border-gray-100 border-y dark:border-gray-800 sm:flex">
+                    <div class="text-left">
+                        
+                        <h6  class="text-4xl font-bold text-gray-900 dark:text-white" >24/7</h6>
+                        <p class="mt-2 text-gray-500">Merchants</p>
+                    </div>
+                    <div class="text-left">
+                        <h6 class="text-4xl font-bold text-gray-900 dark:text-white">27M</h6>
+                        <p class="mt-2 text-gray-500">Transactions</p>
+                    </div>
+                    <div class="text-left">
+                        <h6 class="text-4xl font-bold text-gray-900 dark:text-white">11</h6>
+                        <p class="mt-2 text-gray-500">Banks & Fintechs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-3 mt-12 sm:grid-cols-4 md:grid-cols-6">
+              <div class="flex justify-center col-span-3 sm:col-span-4 md:col-span-6">
+                  <div class="p-4 transition duration-200 grayscale hover:grayscale-0">
+                      <img src="https://www.ezaga.co.za/wp-content/uploads/2024/02/eZAGA-Mobile-Sim-White.png" class="w-auto h-10.5" loading="lazy" alt="client logo">
+                  </div>
+                  <style>
+                    .animated-text {
+                        opacity: 0;
+                        transition: opacity 1s ease;
+                    }
+                    
+                    .animated-text.show {
+                        opacity: 1;
+                    }
+                    </style>
+              </div>
+          </div>
+          
+              </div>
+        </div>
+    </Container>
+</div>
